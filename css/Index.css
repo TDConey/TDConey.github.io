@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* CSS Document */
+h1{text-align:center; margin-left:300px; margin-right:300px; font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;}
+body{ margin-top: 100px; background-color:#E8E4E4}
+li{margin-left:550px;}
+p{  text-align:center; margin-left:300px; margin-right:300px; font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;}
+h3{ text-align:center; margin-left:300px; margin-right:300px;font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;}
+
+nav{ text-align:center; margin-left:300px;margin-right:300px;font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;}

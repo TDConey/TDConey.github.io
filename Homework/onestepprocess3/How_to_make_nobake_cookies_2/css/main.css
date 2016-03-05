@@ -1,0 +1,53 @@
+/* CSS Document */
+body{
+    background-color:#EDE1D1;
+    font-weight:bold;
+}
+
+h2{ text-align: center;text-shadow: 1px 1px grey;}
+img {
+   padding:1px;
+   border:1px solid #021a40;
+   background-color:#fff;
+    
+}
+.cookie1{
+    margin-left: 90px;
+    position: top left;
+    width:400px; height:300;
+    margin-right: 200px;
+
+}
+.cookie2{
+    background-position:  top right;
+    width:450; height:450;
+}
+ 
+
+hr{
+
+background-color: #000;
+height: 10px; 
+width:100%;
+} 
+
+h3{ text-align: center;text-decoration: underline;text-shadow: 1px 1px grey;}
+ul {
+    
+    padding-left: 550px;
+}
+ol{
+  margin-left: 150px;
+  margin-right: 150px;  
+}
+h4{text-align: center;}
+
+p{text-align: center;}
+
+#allrecipes{text-align: center;text-decoration: underline;font-family:cursive;}
+#author{text-align: center; font-family:cursive;}
+
+#disclaimer{
+    margin-left: 150px;
+    margin-right: 150px;
+}

@@ -1,0 +1,22 @@
+body {
+
+    background-color: black;
+    background-image:url(images/skyline.jpg);
+   background-size:cover;
+   
+    background-origin: padding-box;
+    background-position:top;
+    background-repeat:no-repeat;
+
+}
+
+#title {
+
+text-decoration-color: black;
+text-align: center;
+}
+
+
+#title h1 a:link {
+ text-shadow: 1px 1px blue;
+}
