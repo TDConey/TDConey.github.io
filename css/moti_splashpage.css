@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+body { padding:0em 0em; font : 100%/1.4 Asul, arial, helvetica, helve, sans-serif;} 	
+ 
+a:link{color:black;}
+a:visited{color:#0217FF}
+a:hover{color:#FC0004;}
+a:active{color:white;}
+img { 
+    position:absolute;
+	background-image: url(../images/clipboard.png);
+	background-repeat: no-repeat;
+	width:100%; 	background-size: cover;
+    background-position:top;
+	}
+	
+	#entersite{
+	margin-top: 500px;
+	position:relative;
+	text-align: center;
+	font-weight: bolder;
+	font-size:25px;
+	
+}
+	
+
