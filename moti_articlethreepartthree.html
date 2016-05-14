@@ -7,6 +7,26 @@
 
 <head>
 
+<style>
+
+.button {
+    background-color: white;
+    border-radius: 12px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px 8px;
+    cursor: pointer;
+	width:50%;
+}
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+</style>
+
 	<meta charset="utf-8">
 	<!-- Always force latest IE rendering engine & Chrome Frame -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -41,40 +61,41 @@
 
 <body>
 <link rel="stylesheet" href="css/moti_articleone.css">
+<link rel="stylesheet" href="css/moti_articles_mainpage.css">
 <header>
 <div class="section group" id="customheader">
 		<div class="col span_12_of_12" ><h1>Mindsmiths<br>of the Imagination</h1>
         </div>
 </div>
 </header>
-        <hr>
+       
 <div class="section group" id="links">
                 <nav >
 			        <div class="col span_1_of_7">
-                    <a href="moti.html" style="text-decoration:none">Home </a>
+                    <a href="moti.html" style="text-decoration:none" class="button">Home </a>
                     </div>
                     <div class="col span_1_of_7" >
-					<a href="moti_articles_mainpage.html" style="text-decoration:none">Articles</a>
+					<a href="moti_articles_mainpage.html" style="text-decoration:none" class="button">Articles</a>
 					</div>		
  				    <div class="col span_1_of_7" >
-					<a href="moti_writingcontestpage.html" style="text-decoration:none">Contests</a>
+					<a href="moti_writingcontestspage.html" style="text-decoration:none" class="button">Contests</a>
 					</div>
 					<div class="col span_1_of_7" >
-					<a href="moti_bookspage.html" style="text-decoration:none">Books</a>
+					<a href="moti_bookspage.html" style="text-decoration:none" class="button">Books</a>
 					</div>
                      <div class="col span_1_of_7" >
-					<a href="moti_linkspage.html" style="text-decoration:none">Links</a>
+					<a href="moti_linkspage.html" style="text-decoration:none" class="button">Links</a>
 					</div>
 					<div class="col span_1_of_7" >
-					<a href="moti_contactpage.html" style="text-decoration:none">Contact Us</a>
+					<a href="moti_contactpage.html" style="text-decoration:none" class="button">Contact</a>
 					</div>
                     <div class="col span_1_of_7" >
-					<a href="moti_creditspage.html" style="text-decoration:none">Credits</a>
+					<a href="moti_creditspage.html" style="text-decoration:none" class="button">Credits</a>
                     </div>
-                 </nav>    
+                 </nav>     
 </div> 
 
-		 <div class="section group" id="Articlesmain"><img src="images/looseleaf.jpg" alt="" >
+		 <div class="section group" id="Articlesmain"><img src="images/looseleaf.png" alt="" >
 		<div class="col span_12_of_12">
         <h2 id="about">Basic Copyright Concepts For Writers</h2><br>
         <h3>by Claire E. White </h3><br><br>
@@ -90,25 +111,39 @@
 <li>Registration is inexpensive ($20 per work registered) and relatively simple. To register the author simply fills out the copyright application and mails it to the U.S. Copyright office with a check and a nonreturnable copy of the work (one copy if the work is unpublished and two copies if it has been published). Works that have been published must be registered within three months of the publication. This is called "mandatory deposit". </li>
 </ul>
 <p>Copyright registration is considered effective the day the Copyright Office receives all the materials required for registration. Authors may copyright the name in a pen name or pseudonym by simply checking the "Pseudonymous" box on the application.  </p><br>
-<h3> Can Foreigners Copyright Their Work in the U.S.? </h3>
-<p> Many works of foreign origin are protected by U.S. copyright law. All unpublished works, regardless of the nationality of the author, are protected in the United States. Works that are first published in the United States or in a country which has entered into a copyright treaty with the U.S., or are created by a citizen or domiciliary of a country which has entered into a copyright treaty with the U.S. are also protected and may therefore be registered with the U.S. Copyright Office. The U.S. has copyright treaties with many countries, including Australia, Canada, China, France, Germany, Japan, New Zealand, Sweden, Switzerland and the United Kingdom. <br><br>Copyright laws of individual countries vary quite a bit. Some resources to investigate include the Canadian Intellectual Property Office copyright site and an Australian copyright site maintained by the Law Foundation of NSW. </p>
-<div class="section group" >
-        <div class="col span_12_of_12" id="nextpage">	
-               <div class="col span_1_of_3">	
-               <a href="moti_articlethree.html" style = "text-decoration:none"  >page 1 </a>
-               </div>
-               <div class="col span_1_of_3">
-               <a href="moti_articlethreepartthree.html" style = "text-decoration:none"  >page 3 </a>
-               </div>
-               <div class="col span_1_of_3">
-			   <a href="moti_articlethreepartfour.html" style = "text-decoration:none"  >page 4 </a>
-               </div>
+<div class="col span_12_of_12"  >
+                    <div class="col span_1_of_7">
+					<a href="moti_articlethree.html" style="text-decoration:none" class="button2" 
+                    id="pageone" >Page 1</a>
                     </div>
+                    <div class="col span_1_of_7">
+                    <a href="moti_articlethreeparttwo.html" style="text-decoration:none" class="button2"  
+                    id="pagethree">Page 2</a>
+                    </div>
+                   <div class="col span_1_of_7">
+                    <a href="moti_articlethreepartfour.html" style="text-decoration:none" class="button2"  
+                    id="pagefour">Page 4</a>
+                    </div>
+                    <div class="col span_1_of_7">
+                    <a href="moti_articlethreepartfive.html" style="text-decoration:none" class="button2"  
+                    id="pagefive">Page 5</a>
+                    </div>
+                    <div class="col span_1_of_7">
+                    <a href="moti_articlethreepartsix.html" style="text-decoration:none" class="button2"  
+                    id="pagesix">Page 6</a>
+                    </div>
+                    <div class="col span_1_of_7">
+                    <a href="moti_articlethreepartseven.html" style="text-decoration:none" class="button2"  
+                    id="pageseven">Page 7</a>
+                    </div>
+                    <div class="col span_1_of_7">
+                    <a href="moti_articlethreeparteight.html" style="text-decoration:none" class="button2"  
+                    id="pageeight">Page 8</a>
+                    </div>
+					</div>
         </div>
         
-       </div>
-  </div>
-                
+        </div>
 
 </body>
 </html>

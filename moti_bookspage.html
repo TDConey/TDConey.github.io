@@ -33,9 +33,29 @@
 	<link rel="stylesheet" href="css/11cols.css" media="all">
 	<link rel="stylesheet" href="css/12cols.css" media="all">
 
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/slideshow.js"></script>
+	<link href="css/slideshow.css" rel="stylesheet" media="all" />
 	
-	
-	
+	<style>
+
+.button {
+    background-color: white;
+    border-radius: 12px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px 8px;
+    cursor: pointer;
+	width:50%;
+}
+.button:hover {background-color: grey;}
+
+
+</style>
 
 </head>
 
@@ -49,34 +69,51 @@
         <hr>
 <div class="section group" id="links">
                 <nav >
-			        <div class="col span_1_of_7">
-                    <a href="moti.html" style="text-decoration:none">Home </a>
+			        <div class="col span_1_of_7" >
+                    <a href="moti.html" class="button">Home </a>
                     </div>
                     <div class="col span_1_of_7" >
-					<a href="moti_articles_mainpage.html" style="text-decoration:none">Articles</a>
+					<a href="moti_articles_mainpage.html" style="text-decoration:none" class="button">Articles</a>
 					</div>		
  				    <div class="col span_1_of_7" >
-					<a href="moti_contest.html" style="text-decoration:none">Contests</a>
+					<a href="moti_writingcontestspage.html" style="text-decoration:none" class="button">Contests</a>
 					</div>
 					<div class="col span_1_of_7" >
-					<a >Books</a>
+					<a href="moti_bookspage.html" style="text-decoration:none" class="button">Books</a>
 					</div>
                      <div class="col span_1_of_7" >
-					<a href="moti_linkspage.html" style="text-decoration:none">Links</a>
+					<a href="moti_linkspage.html" style="text-decoration:none" class="button">Links</a>
 					</div>
 					<div class="col span_1_of_7" >
-					<a href="moti_contactpage.html" style="text-decoration:none">Contact Us</a>
+					<a href="moti_contactpage.html" style="text-decoration:none" class="button">Contact</a>
 					</div>
                     <div class="col span_1_of_7" >
-					<a href="mindsmiths_creditspage.html" style="text-decoration:none">Credits</a>
+					<a href="moti_creditspage.html" style="text-decoration:none" class="button">Credits</a>
                     </div>
                  </nav>    
 </div> 
 
-<div class="section group" id="Articlesmain"><img src="images/looseleaf.jpg" alt="" >
+<div class="section group" id="Articlesmain"><img src="images/looseleaf.png" alt="" >
 		<div class="col span_12_of_12">
         <h2 id="about">Books to aid an aspiring writer</h2><br>
         <p>The books below have been chosen to help an aspiring writer hone their craft more by learning various techniques such as: how to plot out a story more fully, how to develop more complete characters, to learning what ways to get published.</p>
+        
+        
+<div id="ss-container">	
+
+		<div id="slideshow">
+	<div class="active"><a href="#">
+    <img src="images/6.jpg" /></a></div>
+    <div><a href="#"><img src="images/sk.png" /></a></div>
+    <div><a href="#"><img src="images/wz.png" /></a></div>
+    <div><a href="#"><img src="images/jc.png" /></a></div>
+    <div><a href="#"><img src="images/db.png" /></a></div>
+    <div><a href="#"><img src="images/dm.png" /></a></div>
+    <div><a href="#"><img src="images/sk.png" /></a></div>
+        </div>
+ </div>
+        
+        
         <h2 id="booklistheader">The books below are listed with their respective authors:</h2>
         
            <div class="section group" id="books">

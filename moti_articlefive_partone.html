@@ -33,48 +33,65 @@
 	<link rel="stylesheet" href="css/11cols.css" media="all">
 	<link rel="stylesheet" href="css/12cols.css" media="all">
 
-	
-	
+	<style>
+.button {
+    background-color: white;
+    border-radius: 12px;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px 8px;
+    cursor: pointer;
+	width:50%;
+}
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+</style>	
 	
 
 </head>
 
 <body>
 <link rel="stylesheet" href="css/moti_articles_mainpage.css">
+<link rel="stylesheet" href="css/moti_articleone.css">
 <header>
 <div class="section group" id="customheader">
 		<div class="col span_12_of_12" ><h1>Mindsmiths<br>of the Imagination</h1>
         </div>
 </div>
 </header>
-        <hr>
+        
 <div class="section group" id="links">
                 <nav >
 			        <div class="col span_1_of_7">
-                    <a href="moti.html" style="text-decoration:none">Home </a>
+                    <a href="moti.html" style="text-decoration:none" class="button">Home </a>
                     </div>
                     <div class="col span_1_of_7" >
-					<a  href="moti_articles_mainpage.html" style="text-decoration:none">Articles</a>
+					<a href="moti_articles_mainpage.html" style="text-decoration:none" class="button">Articles</a>
 					</div>		
  				    <div class="col span_1_of_7" >
-					<a href="moti_writingcontestpage.html" style="text-decoration:none">Contests</a>
+					<a href="moti_writingcontestpage.html" style="text-decoration:none" class="button">Contests</a>
 					</div>
 					<div class="col span_1_of_7" >
-					<a href="moti_bookspage.html" style="text-decoration:none">Books</a>
+					<a href="moti_bookspage.html" style="text-decoration:none" class="button">Books</a>
 					</div>
                      <div class="col span_1_of_7" >
-					<a href="moti_linkspage.html" style="text-decoration:none">Links</a>
+					<a href="moti_linkspage.html" style="text-decoration:none" class="button" >Links</a>
 					</div>
 					<div class="col span_1_of_7" >
-					<a href="moti_contactpage.html" style="text-decoration:none">Contact Us</a>
+					<a href="moti_contactpage.html" style="text-decoration:none" class="button">Contact</a>
 					</div>
                     <div class="col span_1_of_7" >
-					<a href="moti_creditspage.html" style="text-decoration:none">Credits</a>
+					<a href="moti_creditspage.html" style="text-decoration:none" class="button">Credits</a>
                     </div>
-                 </nav>    
+                 </nav>  
 </div> 
 
-		 <div class="section group" id="Articlesmain"><img src="images/looseleaf.jpg" alt="" >
+		 <div class="section group" id="Articlesmain"><img src="images/looseleaf.png" alt="" >
 		<div class="col span_12_of_12">
         <h2 id="articlefourtitle">10 Big Myths about copyright explained</h2>
         <h2 id="authorfour"> by Brad Templeton</h2>
@@ -87,21 +104,35 @@ You can use C in a circle © instead of "Copyright" but "(C)" has never been giv
 </p>	
 <h3 id="articlefivep3">2) "If I don't charge for it, it's not a violation." </h3>  
 <p id ="articlefivep4">False. Whether you charge can affect the damages awarded in court, but that's main difference under the law. It's still a violation if you give it away -- and there can still be serious damages if you hurt the commercial value of the property. There is a USA exception for personal copying of music, which is not a violation, though courts seem to have said that doesn't include widescale anonymous personal copying as Napster. If the work has no commercial value, the violation is mostly technical and is unlikely to result in legal action. Fair use determinations (see below) do sometimes depend on the involvement of money.</p>
-        </div>
-        <div class="col span_12_of_12"  id="nextpage">
-               <div class="col span_1_of_4" id="One">
-                    <a href="moti_articlefive_parttwo.html" style = "text-decoration:none" id="pageone" >Page Two </a>
+       
+       <h3 id="articlefivep5">3) "If it's posted to Usenet it's in the public domain."</h3>
+		<p id="articlefivep6">False. Nothing modern and creative is in the public domain anymore unless the owner explicitly puts it in the public domain(*). Explicitly, as in you have a note from the author/owner saying, "I grant this to the public domain." Those exact words or words very much like them.<br><br>
+Some argue that posting to Usenet implicitly grants permission to everybody to copy the posting within fairly wide bounds, and others feel that Usenet is an automatic store and forward network where all the thousands of copies made are done at the command (rather than the consent) of the poster. This is a matter of some debate, but even if the former is true (and in this writer's opinion we should all pray it isn't true) it simply would suggest posters are implicitly granting permissions "for the sort of copying one might expect when one posts to Usenet" and in no case is this a placement of material into the public domain. <br><br>
+       
+       
+        <div class="col span_12_of_12"  >
+               <div class="col span_1_of_7" id="One">
+                    <a href="moti_articlefive_parttwo.html" style = "text-decoration:none" id="pageone" 
+                    class="button2">Page 2 </a>
                     </div>
-                    <div class="col span_1_of_4" id="Two">
-                    <a href="moti_articlefive_partthree.html" style = "text-decoration:none" id="pagetwo" >Page Three</a>
+                    <div class="col span_1_of_7" id="Two">
+                    <a href="moti_articlefive_partthree.html" style = "text-decoration:none" id="pagetwo"
+                     class="button2">Page 3</a>
                     </div>
-               <div class="col span_1_of_4" id="Three">
-					<a href="moti_articlefive_partfour.html" style="text-decoration:none" id="pagethree">                    Page Four</a></div>
-                    <div class="col span_1_of_4" id="Four">
-					<a href="moti_articlefive_partfive.html" style="text-decoration:none" id="pagefour">                    Page Five</a></div>
+               <div class="col span_1_of_7" id="Three">
+					<a href="moti_articlefive_partfour.html" style="text-decoration:none" id="pagethree" 
+                    class="button2">Page 4</a></div>
+                    <div class="col span_1_of_7" id="Four">
+					<a href="moti_articlefive_partfive.html" style="text-decoration:none" id="pagefour" class="button2">                    Page 5</a></div>
+                    <div class="col span_1_of_7" id="Five">
+					<a href="moti_articlefive_partsix.html" style="text-decoration:none" id="pagefive" class="button2">                    Page 6</a></div>
+                    <div class="col span_1_of_7" id="six">
+					<a href="moti_articlefive_partseven.html" style="text-decoration:none" id="pagesix" class="button2">                    Page 7</a></div>
+                    <div class="col span_1_of_7" id="seven">
+					<a href="moti_articlefive_parteight.html" style="text-decoration:none" id="pageseven" class="button2">                    Page 8</a></div>
 					</div>
         </div>
-  
+  </div>
                 
 
 </body>

@@ -6,7 +6,29 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 
 <head>
+<style>
 
+.button {
+    background-color: white;
+    border-radius: 12px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 10px 8px;
+    cursor: pointer;
+	width:50%;
+}
+.button:hover {background-color: grey;}
+
+
+</style>
+
+<link rel="shortcut icon" href="images/favicon.ico" /> 
+<link rel="icon" type="image/png" href="images/favicon-32x32.png" /> 
+<link rel="apple-touch-icon" type="image/png" href="images/favicon-16x16.png" />
 	<meta charset="utf-8">
 	<!-- Always force latest IE rendering engine & Chrome Frame -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -33,50 +55,66 @@
 	<link rel="stylesheet" href="css/11cols.css" media="all">
 	<link rel="stylesheet" href="css/12cols.css" media="all">
 
-	
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/slideshow.js"></script>
+	<link href="css/slideshow.css" rel="stylesheet" media="all" />
 	
 	
 
 </head>
 
 <body>
-<link rel="stylesheet" href="css/custom.css">
+<link rel="stylesheet" href="css/moti_articles_mainpage.css">
+
 <header>
 <div class="section group" id="customheader">
 		<div class="col span_12_of_12" ><h1>Mindsmiths<br>of the Imagination</h1>
         </div>
 </div>
 </header>
-        <hr>
+        
 <div class="section group" id="links">
                 <nav >
-			        <div class="col span_1_of_7">
-                    <a>Home </a>
+			        <div class="col span_1_of_7" >
+                    <a href="#" class="button">Home </a>
                     </div>
                     <div class="col span_1_of_7" >
-					<a href="moti_articles_mainpage.html" style="text-decoration:none">Articles</a>
+					<a href="moti_articles_mainpage.html" style="text-decoration:none" class="button">Articles</a>
 					</div>		
  				    <div class="col span_1_of_7" >
-					<a href="mindsmiths_writingcontestpage.html" style="text-decoration:none">Contests</a>
+					<a href="moti_writingcontestspage.html" style="text-decoration:none" class="button">Contests</a>
 					</div>
 					<div class="col span_1_of_7" >
-					<a href="mindsmiths_bookspage.html" style="text-decoration:none">Books</a>
+					<a href="moti_bookspage.html" style="text-decoration:none" class="button">Books</a>
 					</div>
                      <div class="col span_1_of_7" >
-					<a href="mindsmiths_linkspage.html" style="text-decoration:none">Links</a>
+					<a href="moti_linkspage.html" style="text-decoration:none" class="button">Links</a>
 					</div>
 					<div class="col span_1_of_7" >
-					<a href="mindsmiths_contactpage.html" style="text-decoration:none">Contact Us</a>
+					<a href="moti_contactpage.html" style="text-decoration:none" class="button">Contact</a>
 					</div>
                     <div class="col span_1_of_7" >
-					<a href="mindsmiths_creditspage.html" style="text-decoration:none">Credits</a>
+					<a href="moti_creditspage.html" style="text-decoration:none" class="button">Credits</a>
                     </div>
                  </nav>    
 </div> 
 
+<div id="ss-container">	
+
+		<div id="slideshow">
+	<div class="active"><a href="#"><img src="images/a.jpg" /></a></div>
+    <div><a href="#"><img src="images/1.png" /></a></div>
+    <div><a href="#"><img src="images/2.png" /></a></div>
+    <div><a href="#"><img src="images/3.png" /></a></div>
+    <div><a href="#"><img src="images/4.png" /></a></div>
+    <div><a href="#"><img src="images/5.png" /></a></div>
+    <div><a href="#"><img src="images/6.png" /></a></div>
+        </div>
+ </div>
+ 
 		 <div class="section group" id="aboutus"><img src="images/looseleaf.jpg" alt="" >
 		<div class="col span_12_of_12">
-        <h2 id="about">About our site</h2><br>
+        <h2 id="site">About our site</h2><br>
         <p>
         One of the main goals of our site is to provide new writers with information by posting articles on    how to improve they can improve their writing skills.</p>
         <p id="one">Another goal of this site is to inform writers on how to copyright their works, the facts and the fictions        surrounding copyright laws on literature.</p>
