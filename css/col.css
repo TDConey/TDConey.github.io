@@ -1,4 +1,3 @@
-
 /*  SECTIONS  ============================================================================= */
 
 .section {
@@ -19,7 +18,8 @@
     clear:both;
 }
 .group {
-    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+	zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+	color: #000000;
 }
 
 /*  GRID COLUMN SETUP   ==================================================================== */
