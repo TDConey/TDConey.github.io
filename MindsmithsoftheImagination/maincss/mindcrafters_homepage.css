@@ -1,0 +1,67 @@
+/*CSS Reset*/
+html{background-color:#000000;}
+
+#slideshow {
+    position:relative;
+    width: 100%;
+   height: 100%;
+   max-width: 100px;
+   margin: 0 auto;
+  }
+
+#slideshow div {
+   position:absolute;
+   	width: 100%;
+	height: 100%;
+    top:0;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+    background-color: #FFF;
+}
+
+#slideshow div.active {
+    z-index:10;
+    opacity:1.0;
+}
+
+#slideshow div.last-active {
+    z-index:9;
+}
+
+#slideshow div img {
+    max-width: 100%;
+	min-width: 100%;
+    display: block;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+
+
+img {
+	
+	background-repeat: no-repeat;
+	width:100%; height:100%;
+	background-size: cover;
+	
+	}
+#menu{
+	
+	text-color: black;
+	width: 100%;
+	height: 50px;	
+}
+#menu #sidenav {
+	text-align: center;
+	position:absolute;
+}
+
+
+#articlespace {
+	width:100%; height:548px; background-color:grey;
+	}
+#footerinfo{
+	width:100%; height:50px; background-color:white;
+	
+	}

@@ -1,0 +1,238 @@
+@charset "utf-8";
+/* CSS Document */
+body { padding:0em 0em; font : 100%/1.4 Asul, arial, helvetica, helve, sans-serif;} 	
+
+header { 
+
+text-align:center;font-size:2.2em; padding:0 0 .1em 0;
+position:relative;
+background-image: url(../images/desk.png);
+	background-repeat: no-repeat;
+	width:100%;
+	text-shadow: 2px 2px white;
+	background-size: cover;
+	font-family: 'Kaushan Script', cursive;
+	opacity:.8;
+}
+
+#marsimg{
+	position:relative;
+	width:300px;
+	margin-left:45%;
+	}
+#contesttitle{margin-top:300px;}
+.col{margin-left:0px;}
+
+
+nav{
+	padding: .1 em .1 em;
+	font-size: 18px;
+	font-weight: bolder;
+	text-align:center;
+}
+
+img { 
+    position:absolute;
+	background-image: url(../images/notebook.png);
+	background-repeat: no-repeat;
+	width:100%; 	background-size: cover;
+	
+   
+	}
+
+	
+	h2 {
+	/*text-shadow: 2px 2px grey;*/
+	font-size:2em; 
+	text-align:center; 
+	position:relative; 
+	margin-top:100px;
+	margin-left:10%; 
+	margin-right:auto;
+	font-family: 'Kaushan Script', cursive;}
+	p{
+	/*text-shadow: 2px 2px grey;*/
+	position:relative;
+	text-align: left;
+	font-weight: bolder;
+	font-size:20px;
+	margin-left: 13%;
+	margin-right: 13%;
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+#links{margin-left:110px;}
+#contactinfo {margin-left:500px; text-align:left;}
+#contactinfo2 {margin-left:300px; text-align:left;}
+	#headerforlink{ margin-left: 380px;margin-top:29px;}
+	
+	#two{ margin-top:35px;}
+	
+	#articlelinks{ text-align:center;}
+
+    ul, #booklist, li{
+		
+		margin-top:30px;
+		font-weight:bold;
+		font-size:24px;
+		position:relative;
+	}
+	#books{width:50%; margin: 0 400px;}
+	h3 {
+	/*text-shadow: 2px 2px grey;*/
+	font-size:20px;
+	text-align:center; 
+	position:relative; 
+	margin-top:5px;
+	margin-left:10%; 
+	margin-right:auto;}	
+	
+		
+.button2 ,#firstsource, #secondsource, #thirdsource,#fourthsource,#fifthsource,#sixthsource, #nextpage, #pageone, #pagetwo, #pagethree , #pagefour, #pagefive, #pagesix, #pageseven {
+    background:none;
+	font-weight:bolder;
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+	width:20%;
+	position:relative ;
+	margin-left:150px;	 
+}
+.button:hover {
+    background-color: grey;
+    color: white;
+}
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button3	
+{   color: white;
+    background-color: black;
+    border-radius: 12px;
+    padding: 10px px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 40px 350px;
+    cursor: pointer;
+	width:50%;
+	position:relative;
+	
+}
+.button3:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button4	
+{   color: white;
+    background-color: black;
+    border-radius: 12px;
+    padding: 10px px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 40px 250px;
+    cursor: pointer;
+	width:50%;
+	position:relative;
+	
+}
+.button4:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#bullets{
+	position:relative;
+	text-align: left;
+	font-size:20px;
+	margin-left: 13%;
+	margin-right: 13%;
+	margin-top: 15px;
+	margin-bottom: 0px;
+
+	}	
+#tentips {
+	
+	margin-left:0px;}	
+#a1 {margin-left:170px;
+text-align:left;
+}
+#fish{margin-left:380px;}
+
+
+#basicc{margin-left:40px;   }
+#basiccw{margin-left:px; text-align:left;}
+#Articlesmain .col.span_12_of_12 #firstsource {
+	color: #FBF7F7;
+}
+#about{margin-left:0px;}
+#about{margin-left:80px;}
+#briefc{margin-left:200px;}
+#brief{margin-left:60px;}
+#l21{margin-right:100px;}
+#linkiu{margin-left:0px;}
+#linkwd{margin-left:0px;}
+#sourcetitle{margin-top:0px; margin-left:10px;}
+#alinks{margin-left:160px;}
+#twentytips {margin-right:120px;}
+#abouths{margin-left:60px;}
+#linktitle{margin-left:280px;}
+#site{ margin-top:0px; margin-left:20px;}
+#booklistheader{
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	margin-top:-70px;
+	margin-right: 60px;
+}
+#wrapper {
+	
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+
+}
+#carousel {
+	position: relative;
+	
+}
+#carousel div {
+	text-align: center;
+	width: 215px;
+	height: 200px;
+	float: left;
+	position: relative;
+	
+}
+#carousel div img {
+	position:relative;
+	border: none;
+	width: 100%;
+	
+}
+#carousel div span {
+	position:relative;
+	display: none;
+}
+#carousel div:hover span {
+	position:relative;
+	display: inline-block;
+	width: 215px;
+	padding: 3px 0;
+	
+	height: 350px;
+	bottom: 30px;
+	left: 50%;
+	border-radius: 3px;
+}

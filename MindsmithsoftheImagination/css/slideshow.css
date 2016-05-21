@@ -1,0 +1,41 @@
+body{background-color:#010000; }
+#slideshow {
+    position:relative;
+    width: 50%;
+   height: 50%;
+   max-width: 600px;
+   margin: 1% auto;
+  }
+
+#slideshow div {
+   position:relative;
+   	width: 50%;
+	height: 50%;
+    top:0;
+    left:0;
+    z-index:9;
+    opacity:0.0;
+    background-color: black;
+	
+}
+
+#slideshow div.active {
+    z-index:10;
+    opacity:1.0;
+}
+
+#slideshow div.last-active {
+    z-index:6;
+}
+
+#slideshow div img {
+	max-width: 50%;
+	min-width: 50%;
+	display: block;
+	border: 0;
+	margin-top: px;
+	padding-top: 20px;
+	padding-left: 280px;
+	
+}
+ss-container{position: center;}
